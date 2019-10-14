@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7876cd2e-ab17-4452-8e94-abcac00ad726" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon_2577.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/Programmers_Greedy3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Programmers_Greedy3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programmers_BruteForce3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_BruteForce3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Programmers_Hash1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programmers_Hash1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Programmers_Greedy1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programmers_Greedy1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,29 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Programmers_BruteForce3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Programmers_BruteForce3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programmers_BruteForce3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="975">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Programmers_BfsDfs1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programmers_BfsDfs1.java">
+      <file leaf-file-name="BaekJoon_2577.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_2577.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Programmers_Greedy2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programmers_Greedy2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            <state relative-caret-position="345">
+              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,11 +90,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Programmers_Hash3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programmers_Hash3.java">
+      <file leaf-file-name="BaekJoon_11047.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_11047.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="131">
+              <caret line="9" column="64" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaekJoon_1152.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_1152.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Programmers_BfsDfs1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Programmers_BfsDfs1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -151,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Programmers_BruteForce2.java" />
         <option value="$PROJECT_DIR$/src/Programmers_BruteForce3.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_2577.java" />
       </list>
     </option>
   </component>
@@ -234,7 +240,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Programmers_BruteForce3">
+  <component name="RunManager" selected="Application.BaekJoon_2577">
+    <configuration name="BaekJoon_2577" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaekJoon_2577" />
+      <module name="AlgorithmStudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="Icpc_Farm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Icpc_Farm" />
       <module name="AlgorithmStudy" />
@@ -247,11 +258,6 @@
     </configuration>
     <configuration name="Programmers_BruteForce3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Programmers_BruteForce3" />
-      <module name="AlgorithmStudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Programmers_Greedy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programmers_Greedy3" />
       <module name="AlgorithmStudy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -303,18 +309,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Programmers_Greedy3" />
       <item itemvalue="Application.Icpc_Farm" />
       <item itemvalue="Application.Programmers_BruteForce2" />
       <item itemvalue="Application.Programmers_BruteForce3" />
+      <item itemvalue="Application.BaekJoon_2577" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaekJoon_2577" />
         <item itemvalue="Application.Programmers_BruteForce3" />
         <item itemvalue="Application.Programmers_BruteForce2" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Icpc_Farm" />
-        <item itemvalue="Application.Programmers_Greedy3" />
       </list>
     </recent_temporary>
   </component>
@@ -345,12 +351,12 @@
       <workItem from="1570095598029" duration="2056000" />
       <workItem from="1570186591483" duration="1304000" />
       <workItem from="1570362620181" duration="4687000" />
-      <workItem from="1571032587948" duration="7580000" />
+      <workItem from="1571032587948" duration="8172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39523000" />
+    <option name="totallyTimeSpent" value="40115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -393,23 +399,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_Star3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1152.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_1316.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -694,30 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1152.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_1316.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_11047.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -732,13 +701,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_Star3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -815,10 +777,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/AlgorithmStudy/Programmers_BruteForce3.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#2301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers_BruteForce3.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1152.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_Star3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_11047.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="9" column="64" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_2577.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
