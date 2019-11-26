@@ -14,7 +14,7 @@ public class Programmers_Greedy6 {
     public static int solution(int[][] routes) {
         int answer = 0;
 
-        Arrays.sort(routes, new Comparator<int[]>() {
+        Arrays.sort(routes, new Comparator<int[]>() { // 시작 구간 순으로 정렬
             @Override
             public int compare(int[] o1, int[] o2) {
                 final int r1 = o1[0];
