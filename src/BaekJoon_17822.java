@@ -5,8 +5,8 @@ import java.util.StringTokenizer;
 
 public class BaekJoon_17822 {
 
-    static final int[] directionI = {0,0,1};
-    static final int[] directionJ = {1,-1,0}; //인접한 위치 구하는 방향 : 같은원의 오른쪽, 같은원의 왼쪽, 바깥원의 같은 위치
+    static final int[] directionI = {0,0,1,-1};
+    static final int[] directionJ = {1,-1,0,0}; //인접한 위치 구하는 방향 : 같은원의 오른쪽, 같은원의 왼쪽, 바깥원의 같은 위치
     static boolean nothingToRemove = true;
 
     public static void main(String args[]) throws IOException {
@@ -56,6 +56,7 @@ public class BaekJoon_17822 {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
 
@@ -96,7 +97,7 @@ public class BaekJoon_17822 {
     //dfs를 활용하여 0이 아닌 인접한 수들을 재귀탐색하여 제거
     public static void dfs(int[][]num, int i, int j,int count,boolean[][] visited){
         int temp = num[i][j]; //중간에 값이 바뀌어 비교하고자 하는 수가 유실될수 있기 때문에 temp변수에 저장한다.
-        for(int x=0;x<3;x++){
+        for(int x=0;x<directionI.length;x++){
             int di = i+directionI[x];
             int dj = j+directionJ[x];
 
@@ -107,7 +108,7 @@ public class BaekJoon_17822 {
             }
 
 
-            if(di<num.length && !visited[di][dj] && num[di][dj] == temp){
+            if(di>=0 && di<num.length && !visited[di][dj] && num[di][dj] == temp){
                 count = Integer.valueOf(count + 1);
                 num[i][j] = 0;
                 visited[i][j] = true;
