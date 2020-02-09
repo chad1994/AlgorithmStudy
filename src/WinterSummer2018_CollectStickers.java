@@ -16,13 +16,13 @@ public class WinterSummer2018_CollectStickers {
         }
     }
 
-    public static int dp_from_zero(int sticker[]) {
+    public static int dp_from_zero(int sticker[]) { //0번부터 추가하는 경우
         int[] dp = new int[sticker.length];
 
         dp[0] = sticker[0];
         dp[1] = dp[0];
 
-        for (int i = 2; i < sticker.length - 1; i++) {
+        for (int i = 2; i < sticker.length - 1; i++) { // 0번부터 추가 하기 때문에 마지막 원소 비교 불가능.
             dp[i] = Math.max(dp[i - 2] + sticker[i], dp[i - 1]);
         }
 
@@ -30,13 +30,13 @@ public class WinterSummer2018_CollectStickers {
     }
 
 
-    public static int dp_from_one(int sticker[]) {
+    public static int dp_from_one(int sticker[]) { //1번부터 추가하는 경우
         int[] dp = new int[sticker.length];
 
         dp[0] = 0;
         dp[1] = sticker[1];
 
-        for (int i = 2; i < sticker.length; i++) {
+        for (int i = 2; i < sticker.length; i++) { // 1번부터 추가 하기 때문에 마지막 원소 비교가능.
             dp[i] = Math.max(dp[i - 2] + sticker[i], dp[i - 1]);
         }
 
